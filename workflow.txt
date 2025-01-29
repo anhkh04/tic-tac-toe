@@ -1,0 +1,33 @@
+1. Bang khoi tao
+2. Hien thi bang
+3. Nguoi choi danh
+4. Check win
+5. Check hoa
+======================
+1. Bang khoi tao full '.'
+
+2. Hien thi bang:
+
+   | 0 | 1 | 2 |
+---+---+---+---+
+ 0 | . | . | . |
+---+---+---+---+
+ 1 | . | . | . |
+---+---+---+---+
+ 2 | . | . | . |
+---+---+---+---+
+
+3. Nguoi choi danh
+
+Nhap hang: ( 0 <= hang <= 2 )
+Nhap cot:  ( 0 <= cot <= 2 )
+
+neu nhap ky tu: false
+neu nhap khac [0,2]: false
+neu nhap dung: cap nhat phan tu o vi tri do thanh X/O
+
+4. Check win
+Win khi : 3 tren 1 hang/cot/duong cheo
+
+5. Check hoa
+Hoa (draw) khi: !checkwin && cac phan tu array != '.'
